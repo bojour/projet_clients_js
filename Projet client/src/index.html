@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mauvais payeurs</title>
+
+   
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+      
+      <script src="fonction.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+      <br>
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4">
+			<form class="form-horizontal" role="form">
+				<div class="form-group">
+					 
+					<label for="txt" class="col-sm-2 control-label">
+						Nom
+					</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="txt">
+					</div>
+				</div>
+				
+			</form>
+		</div>
+		<div class="col-md-4">
+			<form class="form-horizontal" role="form">
+				<div class="form-group">
+					 
+					<label for="txt1" class="col-sm-2 control-label">
+						Prénom
+					</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="txt1">
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-4">
+			 
+			<button type="button" class="btn btn-default" onclick="ajout()">
+				Ajouter
+			</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table table-bordered table-condensed">
+				<thead>
+					<tr>
+						<th>
+							Nom
+						</th>
+						<th>
+							Prénom
+						</th>
+					</tr>
+				</thead>
+				<tbody id="tableToModify">
+					<tr class="danger">
+						
+						<td>
+							Tallmann
+						</td>
+						<td>
+							Margeurite
+						</td>
+					</tr>
+					<tr>
+			
+						<td>
+							Dupont
+						</td>
+						<td>
+							Paul
+						</td>
+					</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+           <form>
+               <label for="nom">Choisir le ienclit </label>
+                <select name="nom" id="liste">
+                <option value="izi">izi</option>
+                </select>
+            </form>
+			<div class="row">
+				<div class="col-md-4">
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							 
+							<label for="inputEmail3" class="col-sm-2 control-label">
+								Nom
+							</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="nomV">
+							</div>
+						</div>
+						
+				
+					</form>
+				</div>
+				<div class="col-md-4">
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							 
+							<label for="inputEmail3" class="col-sm-2 control-label">
+								Prénom
+							</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="prenomV">
+							</div>
+						</div>
+					
+						
+						
+					</form>
+				</div>
+				<div class="col-md-4">
+					 
+					<button type="button" class="btn btn-default">
+						Supprimer
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
